@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "github>echo-karriere/renovate-config:default",
+    ":pinAllExceptPeerDependencies",
+    ":maintainLockFilesWeekly"
+  ]
+}

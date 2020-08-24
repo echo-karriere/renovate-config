@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":automergeBranch",
+    ":prNotPending"
+  ],
+  "dependencyDashboard": true,
+  "major": {
+    "automerge": false
+  },
+  "schedule": ["before 6am", "every weekend"],
+  "stabilityDays": 3,
+  "prNotPendingHours": 24,
+  "timezone": "Europe/Oslo"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "description": "Renovate configuration for echo karriere",
+  "main": "index.js",
+  "repository": "git@github.com:echo-karriere/renovate-config.git",
+  "author": "Sondre Nilsen <nilsen.sondre@gmail.com>",
+  "license": "MIT"
+}

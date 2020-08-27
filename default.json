@@ -1,16 +1,21 @@
 {
   "extends": [
     "config:base",
+    ":enableVulnerabilityAlertsWithLabel(security)",
     ":automergeMinor",
     ":automergeBranch",
-    ":prNotPending"
+    ":rebaseStalePrs",
+    ":prNotPending",
+    ":disableRateLimiting",
+    ":docker",
+    "schedule:nonOfficeHours",
+    ":label(renovate)",
+    ":timezone(Europe/Oslo)"
   ],
   "dependencyDashboard": true,
   "major": {
     "automerge": false
   },
-  "schedule": ["before 6am", "every weekend"],
   "stabilityDays": 3,
-  "prNotPendingHours": 24,
-  "timezone": "Europe/Oslo"
+  "prNotPendingHours": 24
 }

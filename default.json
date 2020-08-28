@@ -8,9 +8,7 @@
     ":prNotPending",
     ":disableRateLimiting",
     ":docker",
-    "schedule:nonOfficeHours",
     ":label(renovate)",
-    ":timezone(Europe/Oslo)"
   ],
   "dependencyDashboard": true,
   "major": {

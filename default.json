@@ -8,7 +8,7 @@
     ":prNotPending",
     ":disableRateLimiting",
     ":docker",
-    ":label(renovate)",
+    ":label(renovate)"
   ],
   "dependencyDashboard": true,
   "major": {
